@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.contenedor-testimonio {
+  width: 1100px;
+  height: 300px;
+  margin: 10px 10px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  box-shadow: 0 3px 13px 1px rgb(0 0 0 /9%);
+  border-radius: 5px;
+  
+}
+
+.foto-perfil {
+  width: 300px;
+  height: 100%;
+  border-radius: 5px 0 0 5px;
+}
+
+.contenedor-txt {
+  text-align: center;
+  padding: 30px;
+  font-weight: 400;
+  line-height: 1.5rem;
+}
+
+.nombre-testimonio {
+  font-size: 1.3rem;
+}
+
+.cargo-empresa {
+  font-size: 1.3rem;
+  margin-top: 15px;
+  padding-bottom: 15px;
+}
+
+.contenido-testimonio {
+  font-size: 1.1rem;
+  text-align: justify;
+}
+
+@media screen and (max-width: 1000px) {
+  .contenedor-testimonio {
+    width: 100vh;
+    height: auto;
+    overflow: auto;
+  }
+
+}
